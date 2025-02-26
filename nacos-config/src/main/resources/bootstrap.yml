@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nacos-config
+  ## 当前环境，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
+  profiles:
+    active: test
+  cloud:
+    nacos:
+      config:
+        ## nacos的地址，作为配置中心
+        server-addr: localhost:8848
+        ## 配置内容的数据格式，目前只支持 properties 和 yml 类型，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
+        file-extension: yml

@@ -12,3 +12,10 @@ spring:
         ## 配置内容的数据格式，目前只支持 properties 和 yml 类型，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
         file-extension: yml
         namespace: test
+        shared-configs:
+          - data-id: share-db-config.yml
+            group: DEFAULT_GROUP
+            refresh: true
+          - data-id: share-redis-config.yml
+            group: DEFAULT_GROUP
+            refresh: true

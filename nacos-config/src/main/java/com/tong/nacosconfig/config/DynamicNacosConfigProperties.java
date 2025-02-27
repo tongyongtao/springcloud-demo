@@ -17,4 +17,10 @@ public class DynamicNacosConfigProperties {
     @Value("${tong.name}")
     private String name;
 
+    @Value("${database.username}")
+    private String username;
+
+    @Value("${spring.redis.host}")
+    private String host;
+
 }

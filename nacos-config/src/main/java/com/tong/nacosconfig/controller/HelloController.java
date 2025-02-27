@@ -18,7 +18,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello " + dynamicNacosConfigProperties.getName();
+        return "hello " + dynamicNacosConfigProperties.getName() + ", " + dynamicNacosConfigProperties.getUsername() + ", " + dynamicNacosConfigProperties.getHost();
     }
 
 }

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/nacos-config/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-launch/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-launch-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-event/pom.xml" />
       </list>
     </option>
   </component>

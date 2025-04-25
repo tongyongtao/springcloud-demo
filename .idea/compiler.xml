@@ -12,6 +12,7 @@
         <module name="nacos-provider" />
         <module name="nacos-config" />
         <module name="nacos-launch-provider" />
+        <module name="spring-event" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
